@@ -1,5 +1,11 @@
 # Local Audible — implementation summary
 
+## October 6, 2026: remote history cleanup
+
+After explicit authorization, replaced the old remote main branch with the clean root history from master, using an exact-commit force-with-lease guard. Both branches now use the image-free release history. GitHub's default branch remains main; repository visibility and name were not changed. No remote tags or pull-request refs were advertised during inspection. Updated the security notes and synchronized this documentation to both branches.
+
+This supersedes the publication holds and unchanged-remote statements in the historical entries below. Old commits are no longer reachable from the inspected branches; this does not certify deletion of hosting-provider caches, hidden refs, forks, existing clones or the local recovery archive. Those require separate verification or host support if complete erasure is required.
+
 ## October 6, 2026: clean master publication
 
 The owner authorized publishing the cleaned project. Prepared a new root commit on master containing source, tests, documentation and AGPL-3.0-only licensing, with local data, recordings, environments and generated files excluded. Publication targets the existing book_reader repository without force-pushing or deleting main. The old remote main/history still needs separate handling before making the repository public; publishing a clean master does not erase those objects or change the default branch.

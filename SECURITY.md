@@ -13,6 +13,6 @@ Never post private source material or credentials in an issue. Use GitHub privat
 ## Publication checklist
 
 - Review all Git history and remote branches, not just the working tree. Ignore rules cannot remove past commits.
-- Historical versions of this repository contained book-page images. Do not make the existing repository public until the relevant history/refs and hosting-provider retention concerns are addressed.
+- Historical versions contained book-page images. The main/master branch histories were replaced with clean history on October 6, 2026. This does not prove erasure of GitHub caches/hidden refs, forks or old clones. Resolve hosting-provider retention concerns before publication if those old objects must be inaccessible.
 - Never force-add data/, book images/, environments, model caches or credentials.
 - Use synthetic examples and obtain permission before sharing reference voices or generated samples.
