@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "local-audible"
+version = "0.1.0"
+description = "Local document preparation and reviewed audiobook generation"
+readme = "README.md"
+license = "AGPL-3.0-only"
+license-files = ["LICENSE"]
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi>=0.115,<1",
+  "httpx>=0.27,<1",
+  "Pillow>=10,<12",
+  "pydantic-settings>=2.6,<3",
+  "uvicorn[standard]>=0.32,<1",
+  "python-multipart>=0.0.20,<1",
+  "pypdf>=6.19,<7",
+  "PyMuPDF>=1.26,<2",
+  "python-docx>=1.2,<2",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8,<9",
+  "pytest-asyncio>=0.24,<1",
+]
+kokoro = [
+  "kokoro>=0.9,<1",
+  "soundfile>=0.12,<1",
+]
+
+[project.scripts]
+local-audible = "backend.cli:main"
+book-reader = "backend.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["backend*"]
+
+[tool.setuptools.package-data]
+backend = ["piper_voices.json"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+asyncio_mode = "auto"

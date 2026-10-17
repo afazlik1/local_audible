@@ -1,0 +1,419 @@
+{
+  "revision": "c10ece1aade47bb51c153c893d14e5bf8e5b7117",
+  "voices": {
+    "en_US-amy-low": {
+      "name": "amy",
+      "quality": "low",
+      "files": {
+        "en/en_US/amy/low/en_US-amy-low.onnx": {
+          "size_bytes": 63104526,
+          "md5_digest": "3c3f6a6ec605f3a59763256d3b2db012"
+        },
+        "en/en_US/amy/low/en_US-amy-low.onnx.json": {
+          "size_bytes": 4164,
+          "md5_digest": "85a339b51379b13bbbb0784382ca75bc"
+        },
+        "en/en_US/amy/low/MODEL_CARD": {
+          "size_bytes": 273,
+          "md5_digest": "e1cdd84aa7493b8fbe1e6471f6f93cea"
+        }
+      }
+    },
+    "en_US-amy-medium": {
+      "name": "amy",
+      "quality": "medium",
+      "files": {
+        "en/en_US/amy/medium/en_US-amy-medium.onnx": {
+          "size_bytes": 63201294,
+          "md5_digest": "778d28aeb95fcdf8a882344d9df142fc"
+        },
+        "en/en_US/amy/medium/en_US-amy-medium.onnx.json": {
+          "size_bytes": 4882,
+          "md5_digest": "7f37dadb26340c90ebc8088e0b252310"
+        },
+        "en/en_US/amy/medium/MODEL_CARD": {
+          "size_bytes": 284,
+          "md5_digest": "c5f20f730b35aeaa6c18271e3c122451"
+        }
+      }
+    },
+    "en_US-bryce-medium": {
+      "name": "bryce",
+      "quality": "medium",
+      "files": {
+        "en/en_US/bryce/medium/en_US-bryce-medium.onnx": {
+          "size_bytes": 63531379,
+          "md5_digest": "a8482817c3bdc3d20121a0e31bfa9809"
+        },
+        "en/en_US/bryce/medium/en_US-bryce-medium.onnx.json": {
+          "size_bytes": 4966,
+          "md5_digest": "a548d1d4ce8579f5a16926bdec77c7bf"
+        },
+        "en/en_US/bryce/medium/MODEL_CARD": {
+          "size_bytes": 405,
+          "md5_digest": "79f21fcb165d0fcc4680222164bbb569"
+        }
+      }
+    },
+    "en_US-danny-low": {
+      "name": "danny",
+      "quality": "low",
+      "files": {
+        "en/en_US/danny/low/en_US-danny-low.onnx": {
+          "size_bytes": 63104526,
+          "md5_digest": "73cc296e178ab3d2a5698179b629cd12"
+        },
+        "en/en_US/danny/low/en_US-danny-low.onnx.json": {
+          "size_bytes": 4166,
+          "md5_digest": "c0aa454db4e5a6581e45799c79aa99c6"
+        },
+        "en/en_US/danny/low/MODEL_CARD": {
+          "size_bytes": 275,
+          "md5_digest": "62d30d0cccea265949980cb48212ebee"
+        }
+      }
+    },
+    "en_US-hfc_female-medium": {
+      "name": "hfc_female",
+      "quality": "medium",
+      "files": {
+        "en/en_US/hfc_female/medium/en_US-hfc_female-medium.onnx": {
+          "size_bytes": 63201294,
+          "md5_digest": "7abec91f1d6e19e913fbc4a333f62787"
+        },
+        "en/en_US/hfc_female/medium/en_US-hfc_female-medium.onnx.json": {
+          "size_bytes": 5033,
+          "md5_digest": "c3d00f54dac3b4068f2576c15c5da3bc"
+        },
+        "en/en_US/hfc_female/medium/MODEL_CARD": {
+          "size_bytes": 354,
+          "md5_digest": "a4a7b5da65e03e6972e44e9555a59aef"
+        }
+      }
+    },
+    "en_US-hfc_male-medium": {
+      "name": "hfc_male",
+      "quality": "medium",
+      "files": {
+        "en/en_US/hfc_male/medium/en_US-hfc_male-medium.onnx": {
+          "size_bytes": 63201294,
+          "md5_digest": "cd2fda1933f0653d3ddc85e5f30ebdd2"
+        },
+        "en/en_US/hfc_male/medium/en_US-hfc_male-medium.onnx.json": {
+          "size_bytes": 5033,
+          "md5_digest": "9b4849dbc1e72f35de7391528dea60d9"
+        },
+        "en/en_US/hfc_male/medium/MODEL_CARD": {
+          "size_bytes": 352,
+          "md5_digest": "0bc174f6fe7a6d795a790110e8bf9096"
+        }
+      }
+    },
+    "en_US-joe-medium": {
+      "name": "joe",
+      "quality": "medium",
+      "files": {
+        "en/en_US/joe/medium/en_US-joe-medium.onnx": {
+          "size_bytes": 63201294,
+          "md5_digest": "74fd6a4dc39e0aa9dce145d7f5acd4f6"
+        },
+        "en/en_US/joe/medium/en_US-joe-medium.onnx.json": {
+          "size_bytes": 4794,
+          "md5_digest": "811036b9c1451545f9495fdc1baa0754"
+        },
+        "en/en_US/joe/medium/MODEL_CARD": {
+          "size_bytes": 281,
+          "md5_digest": "7dc55becaf84cb3b713281fac70491a1"
+        }
+      }
+    },
+    "en_US-john-medium": {
+      "name": "john",
+      "quality": "medium",
+      "files": {
+        "en/en_US/john/medium/en_US-john-medium.onnx": {
+          "size_bytes": 63531379,
+          "md5_digest": "70480857f21f2560f3a232722023b36d"
+        },
+        "en/en_US/john/medium/en_US-john-medium.onnx.json": {
+          "size_bytes": 4965,
+          "md5_digest": "f2d04611b498e14d394385d1ec8a2d2d"
+        },
+        "en/en_US/john/medium/MODEL_CARD": {
+          "size_bytes": 498,
+          "md5_digest": "4ef938585cf2cc8da4ada9b6d2c579ec"
+        }
+      }
+    },
+    "en_US-kathleen-low": {
+      "name": "kathleen",
+      "quality": "low",
+      "files": {
+        "en/en_US/kathleen/low/en_US-kathleen-low.onnx": {
+          "size_bytes": 63104526,
+          "md5_digest": "dd1ab131724b1cff76fe388252bec47b"
+        },
+        "en/en_US/kathleen/low/en_US-kathleen-low.onnx.json": {
+          "size_bytes": 4169,
+          "md5_digest": "d970eebfe8e9f8515e405659da658f9b"
+        },
+        "en/en_US/kathleen/low/MODEL_CARD": {
+          "size_bytes": 281,
+          "md5_digest": "0585e0a798d093c9ee090b99d9c8f68e"
+        }
+      }
+    },
+    "en_US-kristin-medium": {
+      "name": "kristin",
+      "quality": "medium",
+      "files": {
+        "en/en_US/kristin/medium/en_US-kristin-medium.onnx": {
+          "size_bytes": 63531379,
+          "md5_digest": "5fed42d2296baca042e2bf74785db725"
+        },
+        "en/en_US/kristin/medium/en_US-kristin-medium.onnx.json": {
+          "size_bytes": 4968,
+          "md5_digest": "70bc97d350c796c64ea5e4d08241afac"
+        },
+        "en/en_US/kristin/medium/MODEL_CARD": {
+          "size_bytes": 479,
+          "md5_digest": "9bfb8192299b34cddf76455f04cb8cd2"
+        }
+      }
+    },
+    "en_US-kusal-medium": {
+      "name": "kusal",
+      "quality": "medium",
+      "files": {
+        "en/en_US/kusal/medium/en_US-kusal-medium.onnx": {
+          "size_bytes": 63201294,
+          "md5_digest": "95334de7385a03c5c9de25b920c33492"
+        },
+        "en/en_US/kusal/medium/en_US-kusal-medium.onnx.json": {
+          "size_bytes": 4884,
+          "md5_digest": "722e434f8e1a768dd6b6fab5b4cfde4d"
+        },
+        "en/en_US/kusal/medium/MODEL_CARD": {
+          "size_bytes": 279,
+          "md5_digest": "b627e950e8e10a1ec7b30e5f9b312a05"
+        }
+      }
+    },
+    "en_US-lessac-high": {
+      "name": "lessac",
+      "quality": "high",
+      "files": {
+        "en/en_US/lessac/high/en_US-lessac-high.onnx": {
+          "size_bytes": 113895201,
+          "md5_digest": "99d1f6181a7f5ccbe3f117ba8ce63c93"
+        },
+        "en/en_US/lessac/high/en_US-lessac-high.onnx.json": {
+          "size_bytes": 4883,
+          "md5_digest": "02e8e364c86b5d3b75e81704b0369856"
+        },
+        "en/en_US/lessac/high/MODEL_CARD": {
+          "size_bytes": 347,
+          "md5_digest": "2ff564555f6d6cde3c19dcc8f3815428"
+        }
+      }
+    },
+    "en_US-lessac-low": {
+      "name": "lessac",
+      "quality": "low",
+      "files": {
+        "en/en_US/lessac/low/en_US-lessac-low.onnx": {
+          "size_bytes": 63201294,
+          "md5_digest": "31883a7506589feadf3c3474fd8ef658"
+        },
+        "en/en_US/lessac/low/en_US-lessac-low.onnx.json": {
+          "size_bytes": 4882,
+          "md5_digest": "64876daa19dd042b368cd64fa379a75f"
+        },
+        "en/en_US/lessac/low/MODEL_CARD": {
+          "size_bytes": 345,
+          "md5_digest": "999cbf2c337d8fb2f21b0fa2c95e9e85"
+        }
+      }
+    },
+    "en_US-lessac-medium": {
+      "name": "lessac",
+      "quality": "medium",
+      "files": {
+        "en/en_US/lessac/medium/en_US-lessac-medium.onnx": {
+          "size_bytes": 63201294,
+          "md5_digest": "2fc642b535197b6305c7c8f92dc8b24f"
+        },
+        "en/en_US/lessac/medium/en_US-lessac-medium.onnx.json": {
+          "size_bytes": 4885,
+          "md5_digest": "c1f2b7bddefe113f3255ff9ef234cfd3"
+        },
+        "en/en_US/lessac/medium/MODEL_CARD": {
+          "size_bytes": 351,
+          "md5_digest": "42f2dd4a98149e12fc70b301d9579dfd"
+        }
+      }
+    },
+    "en_US-ljspeech-high": {
+      "name": "ljspeech",
+      "quality": "high",
+      "files": {
+        "en/en_US/ljspeech/high/en_US-ljspeech-high.onnx": {
+          "size_bytes": 114199011,
+          "md5_digest": "dad093b5d2cff6a5fda99883ceda09d1"
+        },
+        "en/en_US/ljspeech/high/en_US-ljspeech-high.onnx.json": {
+          "size_bytes": 4970,
+          "md5_digest": "de98fc398ddead60fb82d93bfafb3ad1"
+        },
+        "en/en_US/ljspeech/high/MODEL_CARD": {
+          "size_bytes": 513,
+          "md5_digest": "bc3fe20b3e3f359ec423b98c1b6ed32e"
+        }
+      }
+    },
+    "en_US-ljspeech-medium": {
+      "name": "ljspeech",
+      "quality": "medium",
+      "files": {
+        "en/en_US/ljspeech/medium/en_US-ljspeech-medium.onnx": {
+          "size_bytes": 63531379,
+          "md5_digest": "109d552e9dd78d92d1169a7edd6de38d"
+        },
+        "en/en_US/ljspeech/medium/en_US-ljspeech-medium.onnx.json": {
+          "size_bytes": 4972,
+          "md5_digest": "0668112b8b3ac5bb4b12c2b1a366776a"
+        },
+        "en/en_US/ljspeech/medium/MODEL_CARD": {
+          "size_bytes": 517,
+          "md5_digest": "5ad31d314786587d4f97effb0b716d61"
+        }
+      }
+    },
+    "en_US-mike-medium": {
+      "name": "mike",
+      "quality": "medium",
+      "files": {
+        "en/en_US/mike/medium/en_US-mike-medium.onnx": {
+          "size_bytes": 63221984,
+          "md5_digest": "032952405bbd4eeae409385cde31b8c5"
+        },
+        "en/en_US/mike/medium/en_US-mike-medium.onnx.json": {
+          "size_bytes": 5439,
+          "md5_digest": "b4426eda10444b2bef8b447baeba84b2"
+        },
+        "en/en_US/mike/medium/MODEL_CARD": {
+          "size_bytes": 282,
+          "md5_digest": "7481c1af8de74f9825b5d9b6559dff4c"
+        }
+      }
+    },
+    "en_US-norman-medium": {
+      "name": "norman",
+      "quality": "medium",
+      "files": {
+        "en/en_US/norman/medium/en_US-norman-medium.onnx": {
+          "size_bytes": 63531379,
+          "md5_digest": "829cea515dc724d694b83b71e8083f9f"
+        },
+        "en/en_US/norman/medium/en_US-norman-medium.onnx.json": {
+          "size_bytes": 4968,
+          "md5_digest": "975830d6f230f6eccf657d265de99eba"
+        },
+        "en/en_US/norman/medium/MODEL_CARD": {
+          "size_bytes": 528,
+          "md5_digest": "c34f20bbc4918681ad7a070a8321f2fa"
+        }
+      }
+    },
+    "en_US-reza_ibrahim-medium": {
+      "name": "reza_ibrahim",
+      "quality": "medium",
+      "files": {
+        "en/en_US/reza_ibrahim/medium/en_US-reza_ibrahim-medium.onnx": {
+          "size_bytes": 63511038,
+          "md5_digest": "b9d4059c794df8336060fb7f36264a43"
+        },
+        "en/en_US/reza_ibrahim/medium/en_US-reza_ibrahim-medium.onnx.json": {
+          "size_bytes": 4976,
+          "md5_digest": "94aa2ac1bcb4c64f3c4c561d5d5f5676"
+        },
+        "en/en_US/reza_ibrahim/medium/MODEL_CARD": {
+          "size_bytes": 635,
+          "md5_digest": "941fdcc93ba4b03298ac2218c7e350fc"
+        }
+      }
+    },
+    "en_US-ryan-high": {
+      "name": "ryan",
+      "quality": "high",
+      "files": {
+        "en/en_US/ryan/high/en_US-ryan-high.onnx": {
+          "size_bytes": 120786792,
+          "md5_digest": "5d879a17bddf5007f76655b445ba78b4"
+        },
+        "en/en_US/ryan/high/en_US-ryan-high.onnx.json": {
+          "size_bytes": 4166,
+          "md5_digest": "444ff9d6c17218a0eb1d12a20559d869"
+        },
+        "en/en_US/ryan/high/MODEL_CARD": {
+          "size_bytes": 265,
+          "md5_digest": "9c966517ed0bfbffbfdb218e99dbeadd"
+        }
+      }
+    },
+    "en_US-ryan-low": {
+      "name": "ryan",
+      "quality": "low",
+      "files": {
+        "en/en_US/ryan/low/en_US-ryan-low.onnx": {
+          "size_bytes": 63104526,
+          "md5_digest": "32f6a995d6d561cd040b20a76f4edb1e"
+        },
+        "en/en_US/ryan/low/en_US-ryan-low.onnx.json": {
+          "size_bytes": 4165,
+          "md5_digest": "38eb0602e1f8bf627a0d9a747723cbf6"
+        },
+        "en/en_US/ryan/low/MODEL_CARD": {
+          "size_bytes": 263,
+          "md5_digest": "030252d21b0bd1048c37a9eb7f94eb17"
+        }
+      }
+    },
+    "en_US-ryan-medium": {
+      "name": "ryan",
+      "quality": "medium",
+      "files": {
+        "en/en_US/ryan/medium/en_US-ryan-medium.onnx": {
+          "size_bytes": 63201294,
+          "md5_digest": "8f06d3aff8ded5a7f13f907e6bec32ac"
+        },
+        "en/en_US/ryan/medium/en_US-ryan-medium.onnx.json": {
+          "size_bytes": 4883,
+          "md5_digest": "f173a2b5202b3e4128ccc3ed8195306c"
+        },
+        "en/en_US/ryan/medium/MODEL_CARD": {
+          "size_bytes": 306,
+          "md5_digest": "79d9200481a9dcabfa1803cb9e31c28a"
+        }
+      }
+    },
+    "en_US-sam-medium": {
+      "name": "sam",
+      "quality": "medium",
+      "files": {
+        "en/en_US/sam/medium/en_US-sam-medium.onnx": {
+          "size_bytes": 62950044,
+          "md5_digest": "57efcb38a3d0510051f9f55c517ccb76"
+        },
+        "en/en_US/sam/medium/en_US-sam-medium.onnx.json": {
+          "size_bytes": 5040,
+          "md5_digest": "a124497d09ce818f9800d16f24e1a8d1"
+        },
+        "en/en_US/sam/medium/MODEL_CARD": {
+          "size_bytes": 354,
+          "md5_digest": "6d703b6f41e53c4a6fb6512e91780dc0"
+        }
+      }
+    }
+  }
+}

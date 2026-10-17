@@ -1,0 +1,47 @@
+# Local source and generated book data
+book images/
+data/
+runtime/
+*.db
+*.sqlite3
+*.wav
+*.mp3
+*.m4b
+*.egg-info/
+
+# Python
+.venv/
+.venv312/
+.venv-speech/
+.venv-chattts/
+.venv-f5/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# Local configuration and logs
+.env
+.env.*
+!.env.example
+*.log
+*.pem
+*.key
+*.p12
+*.pfx
+*.tsbuildinfo
+build/
+
+# OS/editor
+.DS_Store
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json

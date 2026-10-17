@@ -1,0 +1,5 @@
+# Separate environment for Piper and Apple-Silicon Chatterbox; Kokoro stays in .venv312.
+piper-tts==1.4.2
+soundfile==0.14.0
+mlx-whisper==0.4.3
+mlx-audio @ git+https://github.com/Blaizzy/mlx-audio.git@9ada37c1e33cfc99a7bdde0a902c0d4a0b913183
